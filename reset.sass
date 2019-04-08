@@ -91,8 +91,11 @@ q:before
   content: ""
   content: none
 
-button:not(:disabled)
-  cursor: pointer
+button
+  appearance: none
+  background: transparent
+  &:not(:disabled)
+    cursor: pointer
 
 // Attributes & states
 
